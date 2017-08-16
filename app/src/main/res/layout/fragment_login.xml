@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.discountalertproject17.loginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editusername"
+        android:layout_below="@+id/editusername"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editpassword"
+        android:layout_alignStart="@+id/editpassword"
+        android:layout_below="@+id/editpassword"
+        android:layout_marginTop="36dp"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="enter username"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

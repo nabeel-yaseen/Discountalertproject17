@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.discountalertproject17.UpdateAlertFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editbname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="enter bank name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editdiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter discount"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter place"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:text="Update"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:id="@+id/btnupdate" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.discountalertproject17.AlertListFragment">
+
+    <Button
+        android:text="Add Discount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:id="@+id/btnadd"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnadd"
+        android:id="@+id/listviewcard" />
+
+</RelativeLayout>

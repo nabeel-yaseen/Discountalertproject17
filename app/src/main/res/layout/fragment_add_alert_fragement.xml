@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba.discountalertproject17.AddAlertFragement">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textdetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="19dp"
+        android:text="Add discount detail"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/editbank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textdetail"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="enter bank name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editdiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editbank"
+        android:ems="10"
+        android:hint="enter discount"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editplace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editdiscount"
+        android:layout_below="@+id/editdiscount"
+        android:ems="10"
+        android:hint="enter place"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editplace"
+        android:layout_below="@+id/editplace"
+        android:text="Save" />
+
+</RelativeLayout>
